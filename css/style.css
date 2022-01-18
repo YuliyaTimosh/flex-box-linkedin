@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color:#cfcdc7;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color:rgb(241, 247, 225);
+    position: fixed;
+    z-index: 3;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 90px 0 15px 0;
+    width: 1280px;
+    background-color:#cfcdc7;
+
+}
+
+/*.elements_list {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.sections {
+    width: 70%;
+    height: auto;
+    /*background-color:aquamarine;*/
+}
+
+.asides {
+    margin-left: 30px;
+    width: 30%;
+    height: auto;
+   /* background-color:burlywood;*/
+}
+
+
+.elements_list section {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.elements_list aside {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.elem {
+    border-radius: 10px;
+    background-color:white;
+
+}
+
+.elements_list .profile_efficiency {
+    height: 100px;
+}
+
+.elements_list .monitoring_panel {
+    height: 400px;
+}
+
+.elements_list .action {
+    height: 150px;
+}
+
+.elements_list .job_experience {
+    height: 800px;
+}
+
+.elements_list .interests {
+    height: 250px;
+}
+
+.elements_list .actions {
+    height: 120px;    
+}
+
+.elements_list .banner {
+    height: 240px;
+}
+
+.elements_list .users {
+    height: 400px;
+}
+
+.elements_list .mightKnown_users {
+    height: 150px;
+}
+
+.elements_list .learning {
+    height: 400px;
+    position: sticky;
+    top: 90px;
+}
+
+.messages {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(174, 240, 161);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main_panel_background {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.main_panel {
+    position: relative;
+    z-index: 1;
+}
+.main_panel_avatar {
+    border-radius: 100%;
+    width: 20%;
+    position: absolute;
+    left: 25px;
+    top:100px;
+    border: 5px solid white;
+    z-index: 1;
+
+}
+
+.main_panel_info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.share_wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.share_wrapper .share {
+    height: 100px;
+    border-radius: 10px;
+    background-color:turquoise;
+    margin: 0;
+}
+
+.share_wrapper .share:first-child {
+    margin-right: 20px;
+}
+
+.main_panel_title {
+    display: flex;
+    margin-top: 70px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
